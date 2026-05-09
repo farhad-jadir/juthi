@@ -1,11 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
 
-import Home from "@/pages/Home";
-import Services from "@/pages/Services";
-import Auth from "@/pages/Auth";
-import Booking from "@/pages/Booking";
-import Profile from "@/pages/Profile";
+import Home from "../pages/Home";
 
 export default function App() {
   return (
@@ -14,11 +10,10 @@ export default function App() {
       <Navbar />
 
       <main>
-        {/* Next.js এ routes লাগে না */}
         <Home />
       </main>
 
-      {/* FOOTER (same design kept) */}
+      {/* FOOTER */}
       <footer className="bg-white py-20 px-6 border-t border-luxury-cream mt-24">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
           
